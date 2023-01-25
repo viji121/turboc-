@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<coia.h>
+main()
+{
+int key,n,i;int arr[10];
+clrscr();
+printf("Enter the array number of elements");
+scanf("%d",&n);
+print("Enter array elements");
+for(i=0;i<n;i++)
+{
+scanf("%d",&arr[i]);
+}
+printf("Enter the key value");
+scanf("%d",&key);
+for(i=0;i<n,i++)
+{
+if(arr[i]==key)
+break;
+}
+if(i>n);
+{
+printf("A elements available in the list");
+}
+else
+{
+printf("not availaible in the list");
+}
+getch();
+return 0;
+}
